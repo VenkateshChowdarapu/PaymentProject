@@ -10,6 +10,7 @@ import { NavitemsComponent } from './navitems/navitems.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TransactionComponent } from './transaction/transaction.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TransactionComponent } from './transaction/transaction.component';
     LoginComponent,
      HeaderComponent,
      NavitemsComponent,
-     TransactionComponent
+     TransactionComponent,
+     DashboardComponent
   ],
   imports: [
     BrowserModule,
